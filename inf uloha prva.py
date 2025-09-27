@@ -1,9 +1,9 @@
 
-a = float(input("Zadaj prvé číslo: "))
-b = float(input("Zadaj druhé číslo: "))
-if a > b:
-	print(f"Väčšie číslo je: {a}")
-elif b > a:
-	print(f"Väčšie číslo je: {b}")
+x = float(input("Zadaj číslo: "))
+if x > 0:
+	print("Číslo je kladné.")
+elif x < 0:
+	print("Číslo je záporné.")
 else:
-	print("Sú rovnaké")
+	print("Číslo je nula.")
+
