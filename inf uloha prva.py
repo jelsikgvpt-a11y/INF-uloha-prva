@@ -1,6 +1,6 @@
 
-cislo = float(input("Zadaj číslo: "))
-if cislo == 0:
-	print("Prevrátená hodnota neexistuje (delenie nulou).")
+x = int(input("Zadaj číslo: "))
+if x % 2 == 0:
+	print(f"Číslo {x} je párne.")
 else:
-	print("Prevrátená hodnota je:", 1/cislo)
+	print(f"Číslo {x} je nepárne.")
